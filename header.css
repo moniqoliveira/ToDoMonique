@@ -1,8 +1,7 @@
 header {
     position: fixed;
-    border: solid 1px lawngreen;
     text-align: center;
-    width: 98vw;
+    width: 100vw;
     display: inline-block;
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
@@ -15,7 +14,7 @@ header {
     transition-property: color;
 }
       header:hover, header:focus, header:active {
-        background-color: rgb(146, 255, 213, 0.3);
+        background-color: rgba(146, 255, 213, 0.2);
         color:  rgb(253, 182, 255);
 }
 
