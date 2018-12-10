@@ -1,0 +1,59 @@
+.add-component {
+    margin: 55px auto 0;
+    position: relative;
+    left: 23%;
+}
+
+.add-text {
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 35px;  
+    color: #7a0099;
+}
+
+#add-category {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #7a0099;
+    width: 30%;
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 30px;
+    border: none; 
+    margin: 20px 0 ;
+}
+
+#submit-add {
+    width: 45px;
+    position: absolute;
+    bottom: 15%;
+    left: 31%;
+}
+
+@media screen and (max-width: 768px){
+    .add-component {
+        margin: 55px auto 0;
+        position: relative;
+        left: 23%;
+    }
+
+    .add-text {
+        font-size: 35px;
+        position: relative;
+        right: 60px;
+    }
+    
+    #add-category {
+        position: relative;
+        right:60px;
+        font-size: 23px;
+        width: 70%;
+    }
+
+    #submit-add {
+        width: 30px;
+        /*position: relative;
+        top: 16%;
+        left: -12%;*/
+        float: right;
+        margin-left: 30%;
+        margin-bottom: 1%;
+    }
+}

@@ -4,7 +4,10 @@
 
 body {
     margin: 0;
-    font-family: 'Reenie Beanie', cursive;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: -moz-linear-gradient(45deg, #47dd8e 5%, #47c7fc 40%, #7e72ec 65%, #ca4fe8 100%) 
+    
 }
 
 .clear-fix {
