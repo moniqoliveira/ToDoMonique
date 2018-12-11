@@ -1,4 +1,4 @@
-.add-component {
+.add-category-component {
     margin: 55px auto 0;
     position: relative;
     left: 23%;
@@ -28,7 +28,7 @@
 }
 
 @media screen and (max-width: 768px){
-    .add-component {
+    .add-category-component {
         margin: 55px auto 0;
         position: relative;
         left: 23%;
