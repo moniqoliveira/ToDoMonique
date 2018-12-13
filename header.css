@@ -1,0 +1,41 @@
+header {
+    margin: 55px auto 0;
+    max-width: 1000px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #7a0099;
+}
+
+h1 {
+    font-family: 'Megrim', cursive;
+    font-size: 40px;
+    display: inline-block;
+    position: relative;
+    float: left;
+    left:2%;
+}
+
+p {
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 35px;  
+    position: relative;
+    float: right;
+    right:2%;
+    bottom:8%;
+}
+
+@media screen and (max-width: 768px){
+    header{
+        padding: 8px;
+        max-width: 350px;
+    }
+
+    h1 {
+        font-size: 25px;
+        float: left;
+    }
+    
+    p {
+        font-size: 20px;
+    }
+}
