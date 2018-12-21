@@ -17,20 +17,20 @@ h2 {
     background-color: rgba(255, 255, 255, 0.2);
 }
 
-#submit-task {
+.submit-task {
     width: 30px;
     position: absolute;
     bottom: 12%;
     right: 20%;
 }
 
-#close-btn {
+.close-btn {
     position: absolute;
     top: 10%;
     right: 5%;
 }
 
-#create-task {
+.create-task {
     width: 300px;
     font-family: 'Reenie Beanie', cursive;
     font-size: 25px;  
@@ -46,12 +46,11 @@ h2 {
         max-width: 350px;
     }
 
-    #create-task {
+    .create-task {
         width: 230px;
     }
 
-    #submit-task {
+    .submit-task {
         right: 8%
     }
-
 }
