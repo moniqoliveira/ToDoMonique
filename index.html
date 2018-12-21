@@ -10,7 +10,8 @@
         <link rel="stylesheet" type="text/css" media="screen" href="header.css" />
         <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
         <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-        <script src="main.js"></script>
+        <link rel="stylesheet" type="text/css" media="screen" href="cardCategory.css" />
+       <script src="main.js"></script>
     </head>
 
     <body>
@@ -33,8 +34,27 @@
 
                     <input id="add-category" name="add-category" placeholder="ex.: estudos, trabalho, whatever :)"> 
                     
-                    <input type="submit" src="images-and-icons/add-icon.svg" id="submit-add" value="submit" />
+                    <input type="image" src="images-and-icons/add-icon.svg" id="submit-add" value="submit" />
                 </form>
+            </div>
+
+            <div class="card-container">
+                <h2>
+                    Categoria
+                </h2>
+
+                <button id="close-btn">X</button>
+
+                <div class="card-category">
+                    <form>
+                        <label class="card-task" for="create-task">
+                        </label>
+    
+                        <input id="create-task" name="create-task" placeholder="nova tarefa :)"> 
+                        
+                        <input type="image" src="images-and-icons/add-icon.svg" id="submit-task" value="submit" />
+                    </form>
+                </div>
             </div>
         </main>
     </body>

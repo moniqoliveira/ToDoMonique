@@ -20,8 +20,8 @@ p {
     font-size: 35px;  
     position: relative;
     float: right;
-    right:2%;
-    bottom:8%;
+    right: 2%;
+    bottom: 8%;
 }
 
 @media screen and (max-width: 768px){
