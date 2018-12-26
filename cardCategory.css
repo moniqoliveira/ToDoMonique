@@ -4,7 +4,7 @@ h2 {
     font-family: 'Reenie Beanie', cursive;
     font-size: 40px;
     border: none; 
-    margin: 20px 0 ;
+    margin: 20px 0;
     font-weight: normal;
     padding: 10px;
 }
@@ -51,6 +51,6 @@ h2 {
     }
 
     .submit-task {
-        right: 8%
+        right: 8%;
     }
 }
