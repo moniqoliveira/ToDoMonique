@@ -19,9 +19,9 @@ h2 {
 
 .submit-task {
     width: 30px;
-    position: absolute;
-    bottom: 12%;
-    right: 20%;
+    position: relative;
+    bottom: -7px;
+    left: 11%;
 }
 
 .close-btn {
