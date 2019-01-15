@@ -10,7 +10,9 @@
         <link rel="stylesheet" type="text/css" media="screen" href="header.css" />
         <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
         <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-        <script src="main.js"></script>
+        <link rel="stylesheet" type="text/css" media="screen" href="tasklist.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="card-category.css" />
+       <script src="main.js"></script>
     </head>
 
     <body>
@@ -33,8 +35,38 @@
 
                     <input id="add-category" name="add-category" placeholder="ex.: estudos, trabalho, whatever :)"> 
                     
-                    <input type="submit" src="images-and-icons/add-icon.svg" id="submit-add" value="submit" />
+                    <input type="image" src="images-and-icons/add-icon.svg" id="submit-add" value="submit" />
                 </form>
+            </div>
+
+            <div class="card-container">
+                <h2>
+                    Categoria
+                </h2>
+
+                <button class="close-btn">X</button>
+
+                <div class="card-category">
+                    <form>
+                        <div class="box-createtask">
+                            <input class="create-task" name="create-task" placeholder="nova tarefa :)"> 
+                        
+                            <input type="image" src="images-and-icons/add-icon.svg" class="submit-task" value="submit" />
+                        </div>
+                    </form>
+                </div>
+
+                <div class="box-tasklist">
+                    <form>
+                        <input type="checkbox" name="taskcheck" id="task-check" value="1">
+
+                        <label for="taskcheck">tarefa 1</label><br><br>
+                        
+                        <input type="checkbox" name="taskcheck" id="task-check" value="2">
+
+                        <label for="taskcheck">tarefa 2</label>
+                    </form> 
+                </div>
             </div>
         </main>
     </body>

@@ -1,7 +1,6 @@
 .add-category-component {
     margin: 55px auto 0;
-    position: relative;
-    left: 23%;
+    text-align: center;
 }
 
 .add-text {
@@ -17,14 +16,15 @@
     font-family: 'Reenie Beanie', cursive;
     font-size: 30px;
     border: none; 
-    margin: 20px 0 ;
+    margin: 20px 0;
 }
 
 #submit-add {
     width: 45px;
-    position: absolute;
-    bottom: 19%;
-    left: 54%;
+    width: 45px;
+    position: relative;
+    top: 14px;
+    left: 17px;
 }
 
 @media screen and (max-width: 768px){

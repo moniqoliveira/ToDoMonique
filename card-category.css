@@ -1,0 +1,56 @@
+h2 {
+    color: #7a0099;
+    width: 30%;
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 40px;
+    border: none; 
+    margin: 20px 0;
+    font-weight: normal;
+    padding: 10px;
+}
+
+.card-container {
+    position: relative;
+    margin: 0 auto;
+    max-width: 500px;
+    border: transparent solid 2px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.submit-task {
+    width: 30px;
+    position: relative;
+    bottom: -7px;
+    left: 70px;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10%;
+    right: 5%;
+}
+
+.create-task {
+    width: 300px;
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 25px;  
+    color: #7a0099;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    position: relative;
+    left: 55px;
+}
+
+@media screen and (max-width: 768px){
+    .card-container {
+        max-width: 350px;
+    }
+
+    .create-task {
+        width: 230px;
+    }
+
+    .submit-task {
+        right: 8px;
+    }
+}

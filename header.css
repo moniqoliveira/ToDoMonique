@@ -12,7 +12,7 @@ h1 {
     display: inline-block;
     position: relative;
     float: left;
-    left:2%;
+    left: 35px;
 }
 
 p {
@@ -20,8 +20,8 @@ p {
     font-size: 35px;  
     position: relative;
     float: right;
-    right:2%;
-    bottom:8%;
+    right: 14px;
+    bottom: 2px;
 }
 
 @media screen and (max-width: 768px){
